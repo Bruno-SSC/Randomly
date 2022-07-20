@@ -1,0 +1,44 @@
+main #MovieRecommend {
+  height: 60vh;
+  width: 90%;
+
+  margin: auto;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  
+  border: 1px solid white;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+main #MovieRecommend #movieInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  text-align: center;
+  gap: 2rem;
+}
+
+main #MovieRecommend #movieInfo h3 {
+  font-size: 3rem;
+  color: white;
+  align-self: flex-start;
+}
+
+main #MovieRecommend #movieInfo p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+main #MovieRecommend #movieImage {
+  height: 60vh;
+  border: 1px solid white;
+}
+
+main #MovieRecommend #movieImage img {
+  height: 100%;
+}

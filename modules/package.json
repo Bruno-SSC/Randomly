@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "node": "^17.7.2",
+    "node-sass": "^7.0.1",
+    "sass": "^1.52.2",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "clone da netflix para treinar consumo de api, scss e js, gulp e webpack",
+  "main": "index.js",
+  "author": "Bruno-SSC",
+  "license": "ISC",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^2.6.1"
+  }
+}

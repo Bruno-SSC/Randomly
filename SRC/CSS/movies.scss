@@ -1,0 +1,48 @@
+#MovieByGenreList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+#MovieByGenreList .movie {
+  width: 8rem;
+  height: 12rem;
+  border: 1px solid white;
+  order: 2;
+  cursor: pointer;
+  position: relative;
+  transition: all .2s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#MovieByGenreList .movie:hover {
+  width: 14rem;
+  height: 18rem;
+
+}
+
+#MovieByGenreList .movie p{
+  color: white;
+}
+
+#MovieByGenreList .movie img {
+ height: 100%;
+  width: 100%;
+}
+  
+#MovieByGenreList .button {
+  width: 100%;
+  height: 7rem;
+  border-radius: 4rem;
+  order: 1;
+  cursor: pointer;
+  transition: all 1s;
+}
